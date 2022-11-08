@@ -1,7 +1,7 @@
 $("button").hover(function(){
-    $(this).css("background-color", "#3c4048");
-    }, function(){
     $(this).css("background-color", "#65c8d6");
+    }, function(){
+    $(this).css("background-color", "#3c4048");
   });
 
   let scroll_link = $('.scroll');

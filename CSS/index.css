@@ -1,3 +1,6 @@
+button:hover {
+    background-color: #3C4048;
+}
 * {
     padding: 0;
     margin: 0;
@@ -52,7 +55,7 @@
     padding: 20px;
     max-width: 400px;
 }
-.newButton {
+button {
     font-family: "Poppins";
     font-size: 16px;
     margin-right: 10px;
