@@ -36,10 +36,12 @@
     width: 300px;
     text-align: center;
 }
+
 .itemContainer {
-    padding: 50px;
+    padding: 20px;
     display: flex;
     align-items: center;
+    column-gap: 20px;
 
 }
 .description {
@@ -48,9 +50,9 @@
 }
 .caseImage {
     padding: 20px;
-    width: 10%;
+    max-width: 400px;
 }
-button {
+.newButton {
     font-family: "Poppins";
     font-size: 16px;
     margin-right: 10px;
@@ -76,4 +78,21 @@ button {
 .caseFooter li {
     display: inline-block;
     padding: 10px;
+}
+
+@media only screen and (max-width: 450px) {
+    .itemContainer {
+        padding: 10px;
+        display: flex;
+        flex-direction: column-reverse;    
+    }
+
+    .caseImage {
+        width: 300px;
+    }
+
+    .headerImage {
+        width: 300px;
+    }
+    
 }
