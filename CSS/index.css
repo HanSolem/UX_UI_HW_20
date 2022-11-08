@@ -45,7 +45,12 @@ button:hover {
     display: flex;
     align-items: center;
     column-gap: 20px;
-
+}
+.itemContainer2 {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
 }
 .description {
     width: 600px;
@@ -53,7 +58,6 @@ button:hover {
 }
 .caseImage {
     padding: 20px;
-    max-width: 400px;
 }
 button {
     font-family: "Poppins";
@@ -96,6 +100,10 @@ button {
 
     .headerImage {
         width: 300px;
+    }
+    .itemContainer2 {
+        display: flex;
+        flex-direction: column;
     }
     
 }
