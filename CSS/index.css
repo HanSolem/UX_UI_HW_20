@@ -51,6 +51,7 @@ p {
     display: flex;
     align-items: center;
     column-gap: 20px;
+    
 }
 .itemContainer2 {
     padding: 20px;
@@ -95,9 +96,8 @@ button {
 
 @media only screen and (max-width: 450px) {
     .itemContainer {
-        padding: 10px;
         display: flex;
-        flex-direction: column-reverse;    
+        flex-direction: column-reverse;   
     }
 
     .caseImage {
